@@ -1,0 +1,64 @@
+.scroll{
+  width: 100%;
+  height: 100%;
+}
+
+#map{
+  width: 100%;
+  height: 100%;
+}
+
+.controlls{
+  margin-top: 10px;
+  border: 1px solid;
+  border-right: 2px;
+  box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+}
+
+#search{
+  margin-top:12px;
+  margin-left:12px;
+  padding:0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 210px;
+}
+
+#search:focus{
+  border-color: #4d90fe;
+}
+
+
+form {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+#zip-code-input {
+    font-size: 25px;
+}
+
+#get-weather-btn {
+    font-size: 22px;
+}
+
+#title {
+    font-size: 16px;
+}
+
+#summary {    
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#summary img {
+    float: right;
+}
+
+#error-msg {
+    text-align: center;
+    margin-top:  50%;
+    font-weight: bold;    
+}
